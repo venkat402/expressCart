@@ -1,29 +1,32 @@
 {
-    "cartTitle": "CLOTH",
-    "cartDescription": "expressCart",
-    "cartLogo": "",
+    "cartTitle": "Shop",
+    "cartDescription": "Happy Shopping",
+    "cartLogo": "http://206.189.140.51/onlineshop//storage/channel/1/CivzRfmitLvZTm55MYVsq9edlG7vTH5opoi8M5M3.jpeg",
     "baseUrl": "http://localhost:1111",
     "emailHost": "smtp-mail.outlook.com",
     "emailPort": 587,
     "emailSecure": false,
     "emailUser": "hi@markmoffat.com",
     "emailPassword": "this_is_the_smtp_password",
-    "emailAddress": "hi@markmoffat.com",
+    "emailAddress": "venkat.adapala@yopmail.com",
     "menuEnabled": true,
     "productsPerRow": 3,
     "productsPerPage": 6,
     "menuTitle": "Menu",
-    "footerHtml": "&lt;h4 class=&quot;text-center&quot;&gt;Powered by expressCart&lt;/h4&gt;",
+    "footerHtml": "&lt;p class=&quot;text-center&quot;&gt;Powered by expressCart&lt;/p&gt;",
     "googleAnalytics": "",
     "injectJs": "",
     "customCss": "",
-    "currencySymbol": "£",
-    "paymentGateway": "stripe",
+    "currencySymbol": "$",
+    "paymentGateway": "paypal",
     "databaseConnectionString": "mongodb://127.0.0.1:27017/expresscart",
     "theme": "Cloth",
     "trackStock": false,
     "orderHook": "",
-    "availableLanguages": ["en", "it"],
+    "availableLanguages": [
+        "en",
+        "it"
+    ],
     "defaultLocale": "en",
     "maxQuantity": 25,
     "twitterHandle": "",
@@ -32,6 +35,14 @@
         "enabled": {
             "shipping": "shipping-basic",
             "discount": "discount-voucher"
+        },
+        "loaded": {
+            "shipping": {},
+            "discount": {}
         }
-    }
+    },
+    "secretCookie": "a4e3f18d59fde1196df8d75b3c1e6248c9f808b0",
+    "secretSession": "fc811eab2888135b6e7f845ddfbe8f40f09cd6f1",
+    "themeViews": "../views/themes/Cloth/",
+    "env": ".min"
 }
