@@ -9,8 +9,7 @@
             "type": "string"
         },
         "productPrice": {
-            "type": "string",
-            "format": "amount"
+            "type": "string"
         },
         "productDescription": {
             "type": "string"
