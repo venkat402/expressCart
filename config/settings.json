@@ -1,7 +1,7 @@
 {
     "cartTitle": "Shop",
     "cartDescription": "Happy Shopping",
-    "cartLogo": "http://206.189.140.51/onlineshop//storage/channel/1/CivzRfmitLvZTm55MYVsq9edlG7vTH5opoi8M5M3.jpeg",
+    "cartLogo": "https://res.cloudinary.com/tdirectory/image/upload/w_256/q_auto:low/v1551424397/tdirectory/bot/c55bb5ee1ab59d4c4338ebc1bbdda849697d263d.jpg?backup=/import/image-bot-c55bb5ee1ab59d4c4338ebc1bbdda849697d263d.jpg",
     "baseUrl": "http://localhost:1111",
     "emailHost": "smtp-mail.outlook.com",
     "emailPort": 587,
@@ -44,5 +44,5 @@
     "secretCookie": "a4e3f18d59fde1196df8d75b3c1e6248c9f808b0",
     "secretSession": "fc811eab2888135b6e7f845ddfbe8f40f09cd6f1",
     "themeViews": "../views/themes/Cloth/",
-    "env": ".min"
+    "env": ""
 }
