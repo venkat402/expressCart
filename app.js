@@ -36,6 +36,8 @@ if(baseConfig === false){
     console.log(colors.red(`settings.json incorrect: ${ajv.errorsText()}`));
     process.exit(2);
 }
+// dot env configuration
+require('dotenv').config()
 
 // Validate the payment gateway config
 switch(config.paymentGateway){
